@@ -139,6 +139,7 @@ public class GoBildaPinpointDriver extends I2cDeviceSynchDevice<I2cDeviceSynchSi
 
     //enum that captures the direction the encoders are set to
     public enum EncoderDirection{
+        STRAFE,
         FORWARD,
         REVERSED;
     }
